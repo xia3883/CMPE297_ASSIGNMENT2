@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK 
+Server: nginx
+Date: Wed, 05 Dec 2012 19:58:54 GMT
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Frame-Options: sameorigin
+X-Xss-Protection: 1; mode=block
+Content-Length: 295
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <body>
+    <p>Hello World</p>
+    <table>
+      <tr>
+        <td>2012-12-05</td>
+        <td> =</td>
+        <td>14</td>
+      </tr>
+    </table>
+  </body>
+</html>
