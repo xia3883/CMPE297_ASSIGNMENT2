@@ -2,13 +2,14 @@ CMPE297 Assignment2
 Name: Chunyang Xia
 
 1) Github url: https://github.com/xia3883/CMPE297_ASSIGNMENT2
-   I have git issue, cannot checkin code
+   I have git issue, cannot checkin code, so did all the checkin manually
 
 2) CloudFoundry sites for demo:
    http://chun297-helloworld.cloudfoundry.com/
    http://chun297-mongodb-helloworld.cloudfoundry.com/
+   http://chun297-mapreducesample.cloudfoundry.com/
 
-   part1) Hello.rb
+   part1) Hello.rb  <--- Hello World App
 [cxia@oc6831665801 Hello]$ vmc push --runtime ruby19
 Name> Hello
 
@@ -82,8 +83,7 @@ Starting Hello... OK
 Checking Hello... OK
 
 
-
-  part2) MongoSample.rb
+  part2) MongoSample.rb   <--- MongoDB App
 [cxia@oc6831665801 sample-app]$ vmc push MongoSample -m MongoSampleManifest.yml --runtime ruby19
 Instances> 2
 
@@ -179,7 +179,7 @@ Content-Length: 295
   </body>
 </html>
 
-  part3) MapReduceSample.rb
+  part3) MapReduceSample.rb   <---Map-Reduce App
 [cxia@oc6831665801 sample-app]$ vmc push MapReduceSample --runtime ruby19
 Instances> 1
 
