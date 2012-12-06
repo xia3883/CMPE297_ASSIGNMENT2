@@ -1,0 +1,10 @@
+!!!
+%html
+  %body
+    %p Hello World
+    %table
+      - @dates.each do |object|
+        %tr 
+          %td= object._id
+          %td= " = "
+          %td= object.value
